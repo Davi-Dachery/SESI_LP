@@ -1,0 +1,77 @@
+#include <stdio.h>
+
+int main(){
+    float num1, num2, Soma;
+  
+    printf("Digite um num: ");
+    scanf("%f", &num1);
+    
+    printf ("Digite num: ");
+     scanf("%f", &num2);
+     
+     Soma = num1 + num2;
+     
+     printf("%.2f + %.2f = %.2f: ", num1, num2, Soma );
+     
+     
+}
+
+#include <stdio.h>
+
+int main(){
+    float media = 7.0;
+  float n1, n2, n3;
+  
+    printf("diga sua primeira nota: ", n1);
+    scanf("%f", &n1);
+    
+    printf("diga sua segunda nota: ", n2);
+    scanf("%f", &n2);
+    
+    printf("diga sua terceira nota: ", n3);
+    scanf("%f", &n3);
+    
+    media = (n1 + n2 + n3) / 3;
+    
+    printf("%.1f + %.1f + %.1f /3 = %.1f :", n1, n2, n3, media );
+    
+    if (media >=7.0) {
+    printf("aprovado");
+    }
+    else if (media <=6.9) {
+    printf("recuperaçao");
+    }
+   else if (media <= 2.9) {
+    printf("reprovado");
+    }
+    
+}#include <stdio.h>
+
+int main(){
+    float media = 7.0;
+  float n1, n2, n3;
+  
+    printf("diga sua primeira nota: ", n1);
+    scanf("%f", &n1);
+    
+    printf("diga sua segunda nota: ", n2);
+    scanf("%f", &n2);
+    
+    printf("diga sua terceira nota: ", n3);
+    scanf("%f", &n3);
+    
+    media = (n1 + n2 + n3) / 3;
+    
+    printf("%.1f + %.1f + %.1f /3 = %.1f :", n1, n2, n3, media );
+    
+    if (media >=7.0) {
+    printf("aprovado");
+    }
+    else if (media <=6.9) {
+    printf("recuperaçao");
+    }
+   else if (media <= 2.9) {
+    printf("reprovado");
+    }
+    
+}

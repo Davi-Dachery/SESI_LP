@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main(){
+    float num1, num2, Soma;
+  
+    printf("Digite um num: ");
+    scanf("%f", &num1);
+    
+    printf ("Digite num: ");
+     scanf("%f", &num2);
+     
+     Soma = num1 + num2;
+     
+     printf("%.2f + %.2f = %.2f: ", num1, num2, Soma );
+     
+     
+}
